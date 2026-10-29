@@ -1,0 +1,8 @@
+{
+  "name": "antigravity",
+  "version": "1.0.0",
+  "description": "Delega tarefas do Claude Code ao agente do Google Antigravity (CLI agy, modo headless), com permissões restritas por projeto.",
+  "author": {
+    "name": "Dayvison Silva"
+  }
+}

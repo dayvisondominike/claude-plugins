@@ -1,0 +1,11 @@
+{
+  "toolPermission": "request-review",
+  "permissions": {
+    "allow": [],
+    "deny": [
+      "command(regex:git (push|commit|reset|clean|checkout|rebase)( .*)?)",
+      "command(regex:.*(rm -rf|Remove-Item|del /s|rmdir /s).*)",
+      "write_file(.env)"
+    ]
+  }
+}

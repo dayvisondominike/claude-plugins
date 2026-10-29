@@ -1,0 +1,14 @@
+{
+  "name": "dayvison-plugins",
+  "owner": {
+    "name": "Dayvison Silva"
+  },
+  "plugins": [
+    {
+      "name": "antigravity",
+      "source": "./plugins/antigravity",
+      "description": "Delega tarefas do Claude Code ao agente do Google Antigravity (CLI agy, modo headless), com permissões restritas por projeto.",
+      "version": "1.0.0"
+    }
+  ]
+}
