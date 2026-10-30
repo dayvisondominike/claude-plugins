@@ -17,7 +17,11 @@ Em qualquer sessão do Claude Code:
 /plugin install antigravity@dayvison-plugins
 ```
 
-Para que sessões na nuvem de um repositório já venham com o plugin, adicione ao `.claude/settings.json` desse repositório:
+Ou pelo terminal: `claude plugin marketplace add dayvisondominike/claude-plugins` e `claude plugin install antigravity@dayvison-plugins --scope user`.
+
+Só registrar o marketplace e ativar o plugin no `settings.json` não instala o plugin numa máquina onde ele ainda não foi instalado: rode o `install` acima uma vez.
+
+Para que um repositório indique o plugin a quem o abrir (inclusive em sessões na nuvem), adicione ao `.claude/settings.json` desse repositório:
 
 ```json
 {

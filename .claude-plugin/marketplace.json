@@ -3,6 +3,7 @@
   "owner": {
     "name": "Dayvison Silva"
   },
+  "description": "Plugins pessoais do Claude Code de Dayvison Silva.",
   "plugins": [
     {
       "name": "antigravity",
